@@ -1,0 +1,159 @@
+/* pengaturan header css */
+/* font 1 */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+
+.header{
+    background-color: #FFF89A;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#nama_toko{
+    margin-top: 60px;
+    margin-left: 7px;
+    letter-spacing: 4px;
+    font-size: 30px;
+    color: #FF8AAE;
+    text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+input[type=text]{
+    margin-top: 60px;
+    margin-left: 7px;
+    width: 200px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus{
+    width: 150%;
+}
+.navbar{
+    margin-left: 350px;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tombol{
+    margin-left: -200px;
+    margin-right: 200px;
+    padding: 10px;
+    background-color: #FF8AAE;
+    border: none;
+    color: #F9F9F9;
+    text-align: center;
+    display: inline-block;
+    border-radius: 16px;
+}
+.tombol:hover{
+    background-color: #9ADCFF;
+    color: #F9F9F9;
+}
+
+input[type="checkbox"]{
+    margin-left: -100px;
+    margin-top: 70px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    width: 40px;
+    height: 20px;
+    appearance: none;
+    background-color: #FBD6D2;
+    outline: none;
+    border-radius: 10px;
+    transition: .5s ease;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked{
+    background-color: #9ADCFF;
+}
+input[type="checkbox"]::before{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    transition: .5s ease;
+}
+input[type="checkbox"]:checked::before{
+    transform: translateX(20px);
+}
+.dark{
+    background-color: #6886C5;
+    color: #6886C5;
+}
+
+/* pengaturan tengah css */
+/* font 2 */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+.judul-tambahsepatu{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    color: #FF8AAE;
+    font-size: 30px;
+}
+.form-tambahsepatu input[type = "text"],input[type = "file"],input[type = "date"],input[type = "number"]{
+    border : 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #FFB2A6;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.form-tambahsepatu input[type = "text"]:focus{
+    width: 280px;
+    border-color: #FFE0AC;
+}
+
+.tmbl-kirim{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.kirim{
+    padding: 10px;
+    background-color: #FF8AAE;
+    border: none;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    border-radius: 16px;
+}
+.kirim:hover{
+    background-color: #9ADCFF;
+    color: white;
+}
+
+/* pengaturan footer css */
+.kontak{
+    text-align: center;
+    margin-top: 20px auto;
+}
+.footer-2{
+    padding: 20px;
+    background-color: #FFF89A;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.buat-ig{
+    display: flex;
+    flex-direction: row;
+}

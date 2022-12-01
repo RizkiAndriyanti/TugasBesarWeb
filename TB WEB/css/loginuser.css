@@ -1,0 +1,71 @@
+.container{
+    padding-top: 150px;
+}
+
+.judul-login{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    color: #FF8AAE;
+    font-size: 30px;
+}
+
+.form-login input[type = "text"],input[type = "password"]{
+    border : 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #FFB2A6;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.form-login input[type = "text"]:focus{
+    width: 280px;
+    border-color: #FFE0AC;
+}
+
+.tmbl-kirim{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.kirim{
+    padding: 10px;
+    background-color: #FF8AAE;
+    border: none;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    border-radius: 16px;
+}
+.kirim:hover{
+    background-color: #9ADCFF;
+    color: white;
+}
+
+.tombolbuatakun{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button1{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #FF8AAE;
+    border: none;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    border-radius: 16px;
+}
+.button1:hover{
+    background-color: #9ADCFF;
+    color: white;
+}
